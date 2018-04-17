@@ -1,0 +1,23 @@
+Text Data | Expected Result | Actual Result    | Pass/Fail
+103.00      Invalid           invalid            Pass
+90.00       HD                highDistinctionA   Pass
+75.00       D                 distinctionA       Pass
+65.00       C                 creditB            Pass
+55.00       P                 passC              Pass
+20.00       N                 fail               Pass
+-1.00       Invalid           invalid            Pass
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Text Data | Expected Result | Actual Result    | Pass/Fail
+120.00      Invalid           invalid            Pass
+100.00      HD                highDistinctionA   Pass
+83.00       HD                highDistinctionA   Pass
+82.99       D                 distinctionA       Pass
+73.00       D                 distinctionA       Pass
+72.99       C                 creditB            Pass
+63.00       C                 creditB            Pass
+62.99       P                 passC              Pass
+50.00       P                 passC              Pass
+49.99       N                 fail               Pass
+0.00        N                 fail               Pass
+-1.00       Invalid           invalid            Pass
+
